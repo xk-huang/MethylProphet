@@ -226,12 +226,19 @@ class MethylformerBertModel(nn.Module):
         else:
             raise ValueError(f"Invalid add_sample_embeds_type: {self.add_sample_gene_embeds_type}")
 
-        input_embeds = torch.cat((prefix_embeds, cgi_input_embeds, sequence_input_embeds), dim=1)
+        # input_embeds = torch.cat((prefix_embeds, cgi_input_embeds, sequence_input_embeds), dim=1)
+        # NOTE(xk): rm cgi
+        input_embeds = torch.cat((prefix_embeds, sequence_input_embeds), dim=1)
         prefix_embeds_attention_mask = torch.ones(
             (batch_size, prefix_embeds.shape[1]), device=input_embeds.device, dtype=torch.long
         )
+        # NOTE(xk): rm cgi
+        # attention_mask = torch.cat(
+        #     (prefix_embeds_attention_mask, tokenized_cgi_attention_mask, tokenized_sequence_attention_mask),
+        #     dim=1,
+        # )
         attention_mask = torch.cat(
-            (prefix_embeds_attention_mask, tokenized_cgi_attention_mask, tokenized_sequence_attention_mask),
+            (prefix_embeds_attention_mask, tokenized_sequence_attention_mask),
             dim=1,
         )
 

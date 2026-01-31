@@ -1,6 +1,6 @@
 <div align="center">
 <h1>
-  <b>MethylProphet</b>: A Generalized Gene-Contextual Model for Inferring Whole-Genome DNA Methylation Landscape
+  <b>MethylProphet</b>: A New Paradigm for Genome-wide DNA Methylation Prediction Without Methylation Input
 </h1>
 
 <div>
@@ -27,7 +27,7 @@
 <strong><sup>1</sup>UC Santa Cruz, <sup>2</sup>Columbia University, <sup>3</sup>Amazon </strong>
 </div>
 
-This repository contains codes, data, protocols, models, and results of "MethylProphet: A Generalized Gene-Contextual Model for Inferring Whole-Genome DNA Methylation Landscape" ([bioRxiv](https://www.biorxiv.org/content/early/2025/02/08/2025.02.05.636730.full.pdf)).
+This repository contains codes, data, protocols, models, and results of "MethylProphet: A New Paradigm for Genome-wide DNA Methylation Prediction Without Methylation Input" ([bioRxiv](https://www.biorxiv.org/content/early/2025/02/08/2025.02.05.636730.full.pdf)).
 
 <details>
 <summary>Abstract</summary>
@@ -93,7 +93,7 @@ If you find this repository useful, please consider giving a star ⭐ and citati
 ```
 @article {methylprophet2025,
 	author = {Huang, Xiaoke and Liu, Qi and Zhao, Yifei and Tang, Xianfeng and Zhou, Yuyin and Hou, Wenpin},
-	title = {MethylProphet: A Generalized Gene-Contextual Model for Inferring Whole-Genome DNA Methylation Landscape},
+	title = {MethylProphet: A New Paradigm for Genome-wide DNA Methylation Prediction Without Methylation Input},
 	elocation-id = {2025.02.05.636730},
 	year = {2025},
 	doi = {10.1101/2025.02.05.636730},
@@ -103,7 +103,3 @@ If you find this repository useful, please consider giving a star ⭐ and citati
 	journal = {bioRxiv}
 }
 ```
-
-## Questions or Feedback?
-
-For questions or discussions, please open an issue or contact the [author](https://xk-huang.github.io/).

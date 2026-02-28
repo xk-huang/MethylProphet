@@ -27,7 +27,7 @@
 <strong><sup>1</sup>UC Santa Cruz, <sup>2</sup>Columbia University, <sup>3</sup>Amazon </strong>
 </div>
 
-This repository contains codes, data, protocols, models, and results of "MethylProphet: A New Paradigm for Genome-wide DNA Methylation Prediction Without Methylation Input" ([bioRxiv](https://www.biorxiv.org/content/early/2025/02/08/2025.02.05.636730.full.pdf)).
+This repository contains codes, data, protocols, models, and results of "MethylProphet: A New Paradigm for Genome-wide DNA Methylation Prediction Without Methylation Input" ([bioRxiv](https://www.biorxiv.org/content/10.1101/2025.02.05.636730v2)).
 
 <details>
 <summary>Abstract</summary>

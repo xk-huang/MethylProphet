@@ -17,6 +17,8 @@ The prediction results:
 |--------------------|-------------------------------|------------|
 | MethylProphet-base | ENCODE (WGBS)                 | [HF Dataset](https://huggingface.co/datasets/xk-huang/eval-encode_wgbs-bs_512-64xl40s-aws) |
 | MethylProphet-base | TCGA (Array+EPIC+WGBS, Chr 1) | [HF Dataset](https://huggingface.co/datasets/xk-huang/eval-tcga_mix_chr1-bs_512-c2b2) |
+| More Results (`eval-*`) | Other Settings | [HF Dataset](https://huggingface.co/MethylProphet/datasets) |
+
 
 Download the results manually or with huggingfacehub-cli:
 
